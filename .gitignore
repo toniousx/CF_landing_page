@@ -17,3 +17,15 @@
 /yarn-error.log
 
 .byebug_history
+
+/db/*
+
+# Ignore coverage file
+coverage/*
+
+# Ignore public assets
+public/assets/*
+
+.reek
+
+CHALLENGE.md
