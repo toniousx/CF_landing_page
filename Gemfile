@@ -33,9 +33,22 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+group :test do
+  # capybara
+  gem 'capybara'
+  gem 'rubocop', require: false
+  gem 'rubocop-rspec'
+  gem 'simplecov', require: false
+end
+
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 3.7'
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'guard', '~>2.14.2'
+  gem 'guard-cucumber', '~>2.1.1'
+  gem 'guard-rspec', '~>4.7.3'
+  gem 'guard-rubocop'
+  gem 'pry-byebug'
 end
 
 group :development do
