@@ -16,7 +16,7 @@ Metrics/LineLength:
 RSpec/MultipleExpectations:
   Max: 2
   Exclude:
-    - spec/features/getting_cf_courses_spec.rb
+    - spec/features/get_course_information_spec.rb
 
 Style/Documentation:
   Exclude:
