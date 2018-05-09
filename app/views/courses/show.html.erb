@@ -1,0 +1,12 @@
+<h1><%= current_course_title %></h1>
+<br/><br/><br/><br/>
+<h2>Hurry up! Our next course will start on <%= next_start_date %></h2>
+<br/><br/>
+<h2>All dates</h2>
+<h3>
+  <% @course.start_dates.each do |date, index| %>
+    <p><%= date %></p>
+  <% end %>
+</h3>
+<br/><br/>
+<h3>Change Your Career for <%= @total_price %></h3>
