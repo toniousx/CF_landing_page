@@ -1,0 +1,53 @@
+{
+  "courses": {
+    "become-a-ui-designer": {
+      "title": "Become a UI Designer",
+      "url": "https:\/\/careerfoundry.com\/en\/course\/become-a-ui-designer",
+      "author": "Eric Bieller",
+      "next_start": "2018-05-14",
+      "next_start_formatted": "Monday, May 14th, 2018"
+    },
+    "become-a-web-developer": {
+      "title": "Become a Web Developer",
+      "url": "https:\/\/careerfoundry.com\/en\/course\/become-a-web-developer",
+      "author": "Martin Ramsin",
+      "next_start": "2018-05-22",
+      "next_start_formatted": "Tuesday, May 22nd, 2018"
+    },
+    "ux-fundamentals": {
+      "title": "UX Fundamentals",
+      "url": "https:\/\/careerfoundry.com\/en\/course\/ux-fundamentals",
+      "author": "Martin Ramsin",
+      "next_start": "2018-05-14",
+      "next_start_formatted": "Monday, May 14th, 2018"
+    },
+    "become-a-ux-designer": {
+      "title": "Become a UX Designer",
+      "url": "https:\/\/careerfoundry.com\/en\/course\/become-a-ux-designer",
+      "author": "Martin Ramsin",
+      "next_start": "2018-05-14",
+      "next_start_formatted": "Monday, May 14th, 2018"
+    },
+    "ui-for-ux-designers": {
+      "title": "UI for UX Designers",
+      "url": "https:\/\/careerfoundry.com\/en\/course\/ui-for-ux-designers",
+      "author": "Martin Ramsin",
+      "next_start": "2018-05-22",
+      "next_start_formatted": "Tuesday, May 22nd, 2018"
+    },
+    "frontend-development-for-designers": {
+      "title": "Frontend Basics for Designers",
+      "url": "https:\/\/careerfoundry.com\/en\/course\/frontend-development-for-designers",
+      "author": "Martin Ramsin",
+      "next_start": "2018-05-22",
+      "next_start_formatted": "Tuesday, May 22nd, 2018"
+    },
+    "voice-user-interface-design-with-amazon-alexa": {
+      "title": "Voice User Interface Design with Amazon Alexa",
+      "url": "https:\/\/careerfoundry.com\/en\/course\/voice-user-interface-design-with-amazon-alexa",
+      "author": "Martin Ramsin",
+      "next_start": "2018-05-22",
+      "next_start_formatted": "Tuesday, May 22nd, 2018"
+    }
+  }
+}
