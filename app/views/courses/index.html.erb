@@ -1,4 +1,4 @@
 <h1>Courses to Change Your Career</h1>
 <% @courses.each do |course| %>
-  <br/><h3><%= course.title %></h3>
+  <br/><h3><%= link_to course.title, "#" %></h3>
 <% end %>
