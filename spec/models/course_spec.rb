@@ -7,17 +7,20 @@ RSpec.describe Course, type: :model do
   describe '.import_courses' do
     let(:courses_title) { Course.import_courses.map(&:title) }
 
-    it 'add courses from the api' do
+    it 'fetches the courses from the api and transforms them into models' do
       expect(Course).to receive(:json_rest_courses).and_return(raw_courses_json) # rubocop:disable RSpec/MessageSpies
       expect(courses_title).to include('Become a Web Developer')
     end
   end
 
-  describe '.import_course' do
-    let(:course) { Course.import_course('become-a-ui-designer') }
+  describe '.import_course(slug)' do
+    let(:slug)            { 'become-a-ui-designer' }
+    let(:course)          { Course.import_course('become-a-ui-designer') }
+    let(:total_usd_price) { course.price['NA']['total'] }
 
     it 'fetches the course from the api and get the specific slug_course' do
-      expect(Course).to receive(:json_rest_courses).and_return(raw_ui_json) # rubocop:disable RSpec/MessageSpies
+      expect(Course).to receive(:json_rest_courses).with(slug).and_return(raw_ui_json) # rubocop:disable RSpec/MessageSpies,  Metrics/LineLength
+      expect(total_usd_price).to include('$4999')
     end
   end
 end
