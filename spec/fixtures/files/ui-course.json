@@ -1,0 +1,29 @@
+{
+  "slug": "become-a-ui-designer",
+  "start_dates": [
+    "Monday, May 14th, 2018",
+    "Tuesday, May 29th, 2018",
+    "Monday, June 11th, 2018",
+    "Monday, June 25th, 2018"
+  ],
+  "price": {
+    "NA": {
+      "total": "$4999",
+      "upfront": "$1399",
+      "installment": "$600",
+      "cycles": 6
+    },
+    "UK": {
+      "total": "\u00a33299",
+      "upfront": "\u00a3599",
+      "installment": "\u00a3450",
+      "cycles": 6
+    },
+    "EU": {
+      "total": "\u20ac3499",
+      "upfront": "\u20ac799",
+      "installment": "\u20ac450",
+      "cycles": 6
+    }
+  }
+}
