@@ -1,0 +1,34 @@
+require: rubocop-rspec
+
+AllCops:
+  DisplayCopNames: true
+
+  Exclude:
+    - bin/update
+    - bin/setup
+    - bin/bundle
+    - Guardfile
+    - db/schema.rb
+
+Metrics/LineLength:
+  Max: 120
+
+RSpec/MultipleExpectations:
+  Max: 2
+  Exclude:
+    - spec/features/getting_cf_courses_spec.rb
+
+Style/Documentation:
+  Exclude:
+    - db/migrate/*
+
+RSpec/DescribeClass:
+  Exclude:
+    # - spec/features/creating_article_spec.rb
+
+RSpec/ExampleLength:
+  Exclude:
+  # - spec/features/creating_article_spec.rb
+
+Style/Documentation:
+  Enabled: false
