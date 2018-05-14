@@ -1,0 +1,249 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://careerfoundry.com/en/api/courses/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - close
+      Date:
+      - Mon, 14 May 2018 13:06:06 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"61772519db1f08729510a9505613bad8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - locale=en; path=/; expires=Tue, 14 May 2019 13:06:06 -0000; secure
+      X-Request-Id:
+      - 79959201-03aa-4aa2-9c6c-7a4f0c2fffa1
+      X-Runtime:
+      - '0.087224'
+      Vary:
+      - Accept-Encoding, Origin
+      Strict-Transport-Security:
+      - max-age=31536000
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: '{"courses":{"become-a-ui-designer":{"title":"Become a UI Designer","url":"https://careerfoundry.com/en/course/become-a-ui-designer","author":"Eric
+        Bieller","next_start":"2018-05-29","next_start_formatted":"Tuesday, May 29th,
+        2018"},"become-a-web-developer":{"title":"Become a Web Developer","url":"https://careerfoundry.com/en/course/become-a-web-developer","author":"Martin
+        Ramsin","next_start":"2018-05-22","next_start_formatted":"Tuesday, May 22nd,
+        2018"},"ux-fundamentals":{"title":"UX Fundamentals","url":"https://careerfoundry.com/en/course/ux-fundamentals","author":"Martin
+        Ramsin","next_start":"2018-05-29","next_start_formatted":"Tuesday, May 29th,
+        2018"},"become-a-ux-designer":{"title":"Become a UX Designer","url":"https://careerfoundry.com/en/course/become-a-ux-designer","author":"Martin
+        Ramsin","next_start":"2018-05-29","next_start_formatted":"Tuesday, May 29th,
+        2018"},"ui-for-ux-designers":{"title":"UI for UX Designers","url":"https://careerfoundry.com/en/course/ui-for-ux-designers","author":"Martin
+        Ramsin","next_start":"2018-05-22","next_start_formatted":"Tuesday, May 22nd,
+        2018"},"frontend-development-for-designers":{"title":"Frontend Basics for
+        Designers","url":"https://careerfoundry.com/en/course/frontend-development-for-designers","author":"Martin
+        Ramsin","next_start":"2018-05-22","next_start_formatted":"Tuesday, May 22nd,
+        2018"},"voice-user-interface-design-with-amazon-alexa":{"title":"Voice User
+        Interface Design with Amazon Alexa","url":"https://careerfoundry.com/en/course/voice-user-interface-design-with-amazon-alexa","author":"Martin
+        Ramsin","next_start":"2018-05-22","next_start_formatted":"Tuesday, May 22nd,
+        2018"}}}'
+    http_version: 
+  recorded_at: Mon, 14 May 2018 13:06:06 GMT
+- request:
+    method: get
+    uri: https://careerfoundry.com/en/api/courses/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - close
+      Date:
+      - Mon, 14 May 2018 13:06:08 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"61772519db1f08729510a9505613bad8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - locale=en; path=/; expires=Tue, 14 May 2019 13:06:07 -0000; secure
+      X-Request-Id:
+      - 6d9a049b-f01e-4370-b938-557d7a980190
+      X-Runtime:
+      - '0.259619'
+      Vary:
+      - Accept-Encoding, Origin
+      Strict-Transport-Security:
+      - max-age=31536000
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: '{"courses":{"become-a-ui-designer":{"title":"Become a UI Designer","url":"https://careerfoundry.com/en/course/become-a-ui-designer","author":"Eric
+        Bieller","next_start":"2018-05-29","next_start_formatted":"Tuesday, May 29th,
+        2018"},"become-a-web-developer":{"title":"Become a Web Developer","url":"https://careerfoundry.com/en/course/become-a-web-developer","author":"Martin
+        Ramsin","next_start":"2018-05-22","next_start_formatted":"Tuesday, May 22nd,
+        2018"},"ux-fundamentals":{"title":"UX Fundamentals","url":"https://careerfoundry.com/en/course/ux-fundamentals","author":"Martin
+        Ramsin","next_start":"2018-05-29","next_start_formatted":"Tuesday, May 29th,
+        2018"},"become-a-ux-designer":{"title":"Become a UX Designer","url":"https://careerfoundry.com/en/course/become-a-ux-designer","author":"Martin
+        Ramsin","next_start":"2018-05-29","next_start_formatted":"Tuesday, May 29th,
+        2018"},"ui-for-ux-designers":{"title":"UI for UX Designers","url":"https://careerfoundry.com/en/course/ui-for-ux-designers","author":"Martin
+        Ramsin","next_start":"2018-05-22","next_start_formatted":"Tuesday, May 22nd,
+        2018"},"frontend-development-for-designers":{"title":"Frontend Basics for
+        Designers","url":"https://careerfoundry.com/en/course/frontend-development-for-designers","author":"Martin
+        Ramsin","next_start":"2018-05-22","next_start_formatted":"Tuesday, May 22nd,
+        2018"},"voice-user-interface-design-with-amazon-alexa":{"title":"Voice User
+        Interface Design with Amazon Alexa","url":"https://careerfoundry.com/en/course/voice-user-interface-design-with-amazon-alexa","author":"Martin
+        Ramsin","next_start":"2018-05-22","next_start_formatted":"Tuesday, May 22nd,
+        2018"}}}'
+    http_version: 
+  recorded_at: Mon, 14 May 2018 13:06:08 GMT
+- request:
+    method: get
+    uri: https://careerfoundry.com/en/api/courses/become-a-ui-designer
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - close
+      Date:
+      - Mon, 14 May 2018 13:06:08 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"b779c4f85229a0a1d7d42ad1f8a83697"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - locale=en; path=/; expires=Tue, 14 May 2019 13:06:08 -0000; secure
+      X-Request-Id:
+      - 70b2a51b-6b0e-4f15-902c-9a24f44ea333
+      X-Runtime:
+      - '0.098332'
+      Vary:
+      - Accept-Encoding, Origin
+      Strict-Transport-Security:
+      - max-age=31536000
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzbHVnIjoiYmVjb21lLWEtdWktZGVzaWduZXIiLCJzdGFydF9kYXRlcyI6WyJUdWVzZGF5LCBNYXkgMjl0aCwgMjAxOCIsIk1vbmRheSwgSnVuZSAxMXRoLCAyMDE4IiwiTW9uZGF5LCBKdW5lIDI1dGgsIDIwMTgiLCJNb25kYXksIEp1bHkgOXRoLCAyMDE4Il0sInByaWNlIjp7Ik5BIjp7InRvdGFsIjoiJDQ5OTkiLCJ1cGZyb250IjoiJDEzOTkiLCJpbnN0YWxsbWVudCI6IiQ2MDAiLCJjeWNsZXMiOjZ9LCJVSyI6eyJ0b3RhbCI6IsKjMzI5OSIsInVwZnJvbnQiOiLCozU5OSIsImluc3RhbGxtZW50IjoiwqM0NTAiLCJjeWNsZXMiOjZ9LCJFVSI6eyJ0b3RhbCI6IuKCrDM0OTkiLCJ1cGZyb250Ijoi4oKsNzk5IiwiaW5zdGFsbG1lbnQiOiLigqw0NTAiLCJjeWNsZXMiOjZ9fX0=
+    http_version: 
+  recorded_at: Mon, 14 May 2018 13:06:08 GMT
+- request:
+    method: get
+    uri: https://careerfoundry.com/en/api/courses/become-a-ui-designer
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Connection:
+      - close
+      Date:
+      - Mon, 14 May 2018 13:06:09 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"b779c4f85229a0a1d7d42ad1f8a83697"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - locale=en; path=/; expires=Tue, 14 May 2019 13:06:09 -0000; secure
+      X-Request-Id:
+      - 53c4bd73-507e-48f1-957e-2ba6fc56e30c
+      X-Runtime:
+      - '0.079680'
+      Vary:
+      - Accept-Encoding, Origin
+      Strict-Transport-Security:
+      - max-age=31536000
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzbHVnIjoiYmVjb21lLWEtdWktZGVzaWduZXIiLCJzdGFydF9kYXRlcyI6WyJUdWVzZGF5LCBNYXkgMjl0aCwgMjAxOCIsIk1vbmRheSwgSnVuZSAxMXRoLCAyMDE4IiwiTW9uZGF5LCBKdW5lIDI1dGgsIDIwMTgiLCJNb25kYXksIEp1bHkgOXRoLCAyMDE4Il0sInByaWNlIjp7Ik5BIjp7InRvdGFsIjoiJDQ5OTkiLCJ1cGZyb250IjoiJDEzOTkiLCJpbnN0YWxsbWVudCI6IiQ2MDAiLCJjeWNsZXMiOjZ9LCJVSyI6eyJ0b3RhbCI6IsKjMzI5OSIsInVwZnJvbnQiOiLCozU5OSIsImluc3RhbGxtZW50IjoiwqM0NTAiLCJjeWNsZXMiOjZ9LCJFVSI6eyJ0b3RhbCI6IuKCrDM0OTkiLCJ1cGZyb250Ijoi4oKsNzk5IiwiaW5zdGFsbG1lbnQiOiLigqw0NTAiLCJjeWNsZXMiOjZ9fX0=
+    http_version: 
+  recorded_at: Mon, 14 May 2018 13:06:09 GMT
+recorded_with: VCR 4.0.0

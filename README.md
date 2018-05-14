@@ -8,7 +8,7 @@
 
 3. Setup Gems
 
-5. Create fature branch and write Feature Test story:
+5. Create feature branch and add Feature scenario via BDD-TDD:
 
 - visit root page
 - GET all the courses CareerFoundry offers from CF API
@@ -17,7 +17,7 @@
 
 It took me some time to refactor and fix some bugs, specially .open because ruby was using Kernel.open then I need to require 'open-uri'.
 
-6. Create fature branch and add a basic bootstrap FE version
+6. Create feature branch and add a basic bootstrap FE version
 
 #### * Pending and next steps
 - Display the total price in the correct currency based on the user's
