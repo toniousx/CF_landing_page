@@ -5,7 +5,6 @@ class CoursesController < ApplicationController
 
   def show
     @course = Course.import_course(params[:slug])
-    @total_price = Course.import_course_price(params[:slug])
   end
 
   private

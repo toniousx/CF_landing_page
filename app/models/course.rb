@@ -19,6 +19,10 @@ class Course
     Course.import_course(slug).price['NA']['total']
   end
 
+  def default_price
+    price['NA']['total']
+  end
+
   private_class_method def self.json_rest_courses(course = nil)
     url = "https://careerfoundry.com/en/api/courses/#{course}"
     Rails.cache.fetch(url, expires_in: 1.hour) do
