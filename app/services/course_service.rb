@@ -1,22 +1,22 @@
 require 'open-uri' # we need to requiree it in order to avoid conflicts with Kernel#open  *see line 17
 
-class Course
+class CourseService
   include ActiveModel::Model
 
   attr_accessor :title, :url, :slug, :author, :next_start, :next_start_formatted, :price, :start_dates
 
   def self.import_courses
     json_rest_courses['courses'].map do |key, values|
-      Course.new(values.merge(slug: key))
+      CourseService.new(values.merge(slug: key))
     end
   end
 
   def self.import_course(slug)
-    Course.new(json_rest_courses(slug))
+    CourseService.new(json_rest_courses(slug))
   end
 
   def self.import_course_price(slug)
-    Course.import_course(slug).price['NA']['total']
+    CourseService.import_course(slug).price['NA']['total']
   end
 
   def default_price

@@ -12,6 +12,8 @@ AllCops:
 
 Metrics/LineLength:
   Max: 120
+  Exclude:
+    - spec/services/course_service_spec.rb
 
 RSpec/MultipleExpectations:
   Max: 2
