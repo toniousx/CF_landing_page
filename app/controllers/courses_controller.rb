@@ -4,12 +4,12 @@ class CoursesController < ApplicationController
   def index; end
 
   def show
-    @course = CourseService.import_course(params[:slug])
+    @course = ImporterService.course(params[:slug])
   end
 
   private
 
   def set_courses
-    @courses = CourseService.import_courses
+    @courses = ImporterService.courses
   end
 end

@@ -6,4 +6,8 @@ module CoursesHelper
   def current_course_title
     @courses.each { |course| return course.title if course.slug == @course.slug }
   end
+
+  def default_price
+    @course.price['NA']['total']
+  end
 end
