@@ -13,7 +13,7 @@ AllCops:
 Metrics/LineLength:
   Max: 120
   Exclude:
-    - spec/services/course_service_spec.rb
+    - spec/services/importer_service_spec.rb
 
 RSpec/MultipleExpectations:
   Max: 2
@@ -23,14 +23,6 @@ RSpec/MultipleExpectations:
 Style/Documentation:
   Exclude:
     - db/migrate/*
-
-RSpec/DescribeClass:
-  Exclude:
-    # - spec/features/creating_article_spec.rb
-
-RSpec/ExampleLength:
-  Exclude:
-  # - spec/features/creating_article_spec.rb
 
 Style/Documentation:
   Enabled: false
